@@ -1,0 +1,116 @@
+body {
+	background: white;
+    color: rgb(87, 87, 87);
+    font-family: Courier;
+    font-size: 20px; 
+    font-weight: lighter;
+    text-decoration: none;
+}
+
+p {
+	color: #616161;
+	font-family: times;
+	font-weight: 100;
+	letter-spacing: 1px;
+	font-size: 20px;
+	padding: 20px;
+}
+h1, h2, h3 {
+	font-family: times;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgb(87, 87, 87);
+}
+a {
+	font-weight: 600;
+	font-size: 16px;
+	text-decoration: none;
+	color: #C0BCA9;
+}
+a:hover {
+	color: rgb(87, 87, 87);
+	font-weight: bold;
+}
+div {
+	margin: 60px auto;
+}
+
+#leader {
+	border: 2px solid black;
+}
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white {
+	background-color: #AABDC3;
+	padding: 30px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	text-align: center;
+	margin: 30px 0px;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.btn-blue {
+	background-color: #E1E6EA;
+	color: #5C5C5A;
+	padding: 15px 20px; 
+	border-radius: 4px;
+	font-size: 20px;
+	margin: 40px auto;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+    width: 700px;
+}
+.btn-blue:hover {
+	background-color: white;
+	color: black; 
+	text-align: center;
+
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	 font-size: 50px;
+	 color: rgb(150, 150, 150);
+}
+.list-inline i:hover {
+	color: rgb(30, 30, 30);
+
+}
+@media (max-width: 960px) {
+  .container {
+  	width: 700px;
+  }
+}  	
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px
+	}
+}
+
+@media (max-width: 540px) {
+  .container {
+  	width: 300px;
+  }
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+
+
+
+
+
+
+    
